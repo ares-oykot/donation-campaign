@@ -1,0 +1,148 @@
+[
+    {
+      "id": "1",
+      "picture": "https://i.ibb.co/PQbtB9c/Health.png",
+      "picture_cart": "https://i.ibb.co/2SWzkMK/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_for_category_bg": "blue",
+      "color_for_card_bg": "blue",
+      "color_for_text_and_btn_bg": "blue",
+      "description": "Clean water is a fundamental right that every child deserves. Access to safe and clean drinking water is essential for their health, well-being, and overall development. Unfortunately, many children around the world still lack this basic necessity, leading to waterborne illnesses and hindering their ability to thrive. Ensuring clean water for children is not just a matter of basic hygiene; it's a critical step toward breaking the cycle of poverty and allowing every child to reach their full potential.",
+      "price": 270
+    },
+    {
+      "id": "2",
+      "picture": "https://i.ibb.co/WF18hcH/Education.png",
+      "picture_cart": "https://i.ibb.co/7jBD6nd/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_for_category_bg": "red",
+      "color_for_card_bg": "red",
+      "color_for_text_and_btn_bg": "red",
+      "description": "Good education is the cornerstone of personal growth and societal progress. It equips individuals with knowledge, critical thinking skills, and the ability to navigate the complexities of the modern world. Beyond academics, it fosters empathy, tolerance, and a sense of global citizenship. Access to quality education empowers people to break the cycle of poverty, fosters innovation, and drives economic development. It is the key to unlocking human potential and building a brighter, more equitable future for all.",
+      "price": 280
+    },
+    {
+      "id": "3",
+      "picture": "https://i.ibb.co/dp2FqN2/Clothing.png",
+      "picture_cart": "https://i.ibb.co/bvnnDhF/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_for_category_bg": "lime",
+      "color_for_card_bg": "lime",
+      "color_for_text_and_btn_bg": "lime",
+      "description": "A used clothing drive is a wonderful initiative that not only declutters our closets but also extends a helping hand to those in need. Donating gently worn clothes to such drives can make a significant difference in the lives of individuals facing economic challenges or disaster recovery. It promotes sustainability by reducing textile waste and encourages a sense of community and compassion. Participating in a used clothing drive is a simple yet impactful way to contribute to a more equitable and environmentally conscious society.",
+      "price": 290
+    },
+    {
+      "id": "4",
+      "picture": "https://i.ibb.co/LdD0xJb/Food.png",
+      "picture_cart": "https://i.ibb.co/312QnS9/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_for_category_bg": "orange",
+      "color_for_card_bg": "orange",
+      "color_for_text_and_btn_bg": "orange",
+      "description": "Better food for everyone is a shared goal that encompasses both nutrition and sustainability. It calls for equitable access to fresh, wholesome food, regardless of one's socioeconomic status. Additionally, it emphasizes sustainable agricultural practices that prioritize the planet's health. By promoting local, organic, and ethically sourced food, we not only nourish our bodies but also reduce the environmental impact of our dietary choices. Ultimately, striving for better food for everyone means building a healthier and more sustainable future for all.",
+      "price": 300
+    },
+    {
+      "id": "5",
+      "picture": "https://i.ibb.co/LdD0xJb/Food.png",
+      "picture_cart": "https://i.ibb.co/312QnS9/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_for_category_bg": "orange",
+      "color_for_card_bg": "orange",
+      "color_for_text_and_btn_bg": "orange",
+      "description": "Better food for everyone is a shared goal that encompasses both nutrition and sustainability. It calls for equitable access to fresh, wholesome food, regardless of one's socioeconomic status. Additionally, it emphasizes sustainable agricultural practices that prioritize the planet's health. By promoting local, organic, and ethically sourced food, we not only nourish our bodies but also reduce the environmental impact of our dietary choices. Ultimately, striving for better food for everyone means building a healthier and more sustainable future for all.",
+      "price": 300
+    },
+    {
+      "id": "6",
+      "picture": "https://i.ibb.co/dp2FqN2/Clothing.png",
+      "picture_cart": "https://i.ibb.co/bvnnDhF/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_for_category_bg": "lime",
+      "color_for_card_bg": "lime",
+      "color_for_text_and_btn_bg": "lime",
+      "description": "A used clothing drive is a wonderful initiative that not only declutters our closets but also extends a helping hand to those in need. Donating gently worn clothes to such drives can make a significant difference in the lives of individuals facing economic challenges or disaster recovery. It promotes sustainability by reducing textile waste and encourages a sense of community and compassion. Participating in a used clothing drive is a simple yet impactful way to contribute to a more equitable and environmentally conscious society.",
+      "price": 290
+    },
+    {
+      "id": "7",
+      "picture": "https://i.ibb.co/WF18hcH/Education.png",
+      "picture_cart": "https://i.ibb.co/7jBD6nd/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_for_category_bg": "red",
+      "color_for_card_bg": "red",
+      "color_for_text_and_btn_bg": "red",
+      "description": "Good education is the cornerstone of personal growth and societal progress. It equips individuals with knowledge, critical thinking skills, and the ability to navigate the complexities of the modern world. Beyond academics, it fosters empathy, tolerance, and a sense of global citizenship. Access to quality education empowers people to break the cycle of poverty, fosters innovation, and drives economic development. It is the key to unlocking human potential and building a brighter, more equitable future for all.",
+      "price": 280
+    },
+    {
+      "id": "8",
+      "picture": "https://i.ibb.co/PQbtB9c/Health.png",
+      "picture_cart": "https://i.ibb.co/2SWzkMK/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_for_category_bg": "blue",
+      "color_for_card_bg": "blue",
+      "color_for_text_and_btn_bg": "blue",
+      "description": "Clean water is a fundamental right that every child deserves. Access to safe and clean drinking water is essential for their health, well-being, and overall development. Unfortunately, many children around the world still lack this basic necessity, leading to waterborne illnesses and hindering their ability to thrive. Ensuring clean water for children is not just a matter of basic hygiene; it's a critical step toward breaking the cycle of poverty and allowing every child to reach their full potential.",
+      "price": 270
+    },
+    
+  
+    {
+      "id": "9",
+      "picture": "https://i.ibb.co/PQbtB9c/Health.png",
+      "picture_cart": "https://i.ibb.co/2SWzkMK/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_for_category_bg": "blue",
+      "color_for_card_bg": "blue",
+      "color_for_text_and_btn_bg": "blue",
+      "description": "Clean water is a fundamental right that every child deserves. Access to safe and clean drinking water is essential for their health, well-being, and overall development. Unfortunately, many children around the world still lack this basic necessity, leading to waterborne illnesses and hindering their ability to thrive. Ensuring clean water for children is not just a matter of basic hygiene; it's a critical step toward breaking the cycle of poverty and allowing every child to reach their full potential.",
+      "price": 270
+    },
+    {
+      "id": "10",
+      "picture": "https://i.ibb.co/WF18hcH/Education.png",
+      "picture_cart": "https://i.ibb.co/7jBD6nd/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_for_category_bg": "red",
+      "color_for_card_bg": "red",
+      "color_for_text_and_btn_bg": "red",
+      "description": "Good education is the cornerstone of personal growth and societal progress. It equips individuals with knowledge, critical thinking skills, and the ability to navigate the complexities of the modern world. Beyond academics, it fosters empathy, tolerance, and a sense of global citizenship. Access to quality education empowers people to break the cycle of poverty, fosters innovation, and drives economic development. It is the key to unlocking human potential and building a brighter, more equitable future for all.",
+      "price": 280
+    },
+    {
+      "id": "11",
+      "picture": "https://i.ibb.co/dp2FqN2/Clothing.png",
+      "picture_cart": "https://i.ibb.co/bvnnDhF/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_for_category_bg": "lime",
+      "color_for_card_bg": "lime",
+      "color_for_text_and_btn_bg": "lime",
+      "description": "A used clothing drive is a wonderful initiative that not only declutters our closets but also extends a helping hand to those in need. Donating gently worn clothes to such drives can make a significant difference in the lives of individuals facing economic challenges or disaster recovery. It promotes sustainability by reducing textile waste and encourages a sense of community and compassion. Participating in a used clothing drive is a simple yet impactful way to contribute to a more equitable and environmentally conscious society.",
+      "price": 290
+    },
+    {
+      "id": "12",
+      "picture": "https://i.ibb.co/LdD0xJb/Food.png",
+      "picture_cart": "https://i.ibb.co/312QnS9/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_for_category_bg": "orange",
+      "color_for_card_bg": "orange",
+      "color_for_text_and_btn_bg": "orange",
+      "description": "Better food for everyone is a shared goal that encompasses both nutrition and sustainability. It calls for equitable access to fresh, wholesome food, regardless of one's socioeconomic status. Additionally, it emphasizes sustainable agricultural practices that prioritize the planet's health. By promoting local, organic, and ethically sourced food, we not only nourish our bodies but also reduce the environmental impact of our dietary choices. Ultimately, striving for better food for everyone means building a healthier and more sustainable future for all.",
+      "price": 300
+    }
+  ]
