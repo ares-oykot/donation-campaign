@@ -6,8 +6,20 @@ const Banner = () => {
           I Grow By Helping People In Need
         </h2>
         <div className="flex justify-center mt-3">
-            <input className="border rounded-l-md py-2 pl-5 w-96" type="text" name="" id="" placeholder="Search here...." />
-            <button className="py-2 rounded-r-md px-3 font-medium  text-white bg-[#ff676c] hover:bg-[#ff2c33]">Search</button>
+          <form >
+            <input
+              className="border rounded-l-md py-2 pl-5 w-96"
+              type="text"
+              name=""
+              id=""
+              placeholder="Search here...."
+            />
+            <input
+              className="py-2 rounded-r-md px-3 font-medium  text-white bg-[#ff676c] hover:bg-[#ff2c33]"
+              value="Search"
+              type="submit"
+            />
+          </form>
         </div>
       </div>
     </div>
