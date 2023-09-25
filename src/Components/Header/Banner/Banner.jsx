@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className=" border w-full h-72 flex justify-center items-center">
+    <div className="w-full h-72 flex justify-center items-center bg-lime-50">
       <div className="">
         <h2 className="text-4xl font-semibold">
           I Grow By Helping People In Need
