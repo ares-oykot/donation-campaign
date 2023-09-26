@@ -42,15 +42,15 @@ const Statistics = () => {
           {...size}
         />
       </div>
-      <div className="flex justify-center lg:mr-24 mt-10">
+      <div className="flex justify-center lg:mr-24 md:mt-10">
         <div className="text-lg font-medium flex gap-5">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 md:gap-2">
             <p>Your Donation </p>
-            <span><Link to="/error"><hr className="w-28 rounded-sm bg-[#02B2AF] h-4 " /></Link></span>
+            <span><Link to="/error"><hr className="w-14 md:w-28 rounded-sm bg-[#02B2AF] h-4 " /></Link></span>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 md:gap-2">
             <p>Total Donation </p>
-            <span><Link to="/error"><hr className="w-28 rounded-sm bg-[#2E96FF] h-4 " /></Link></span>
+            <span><Link to="/error"><hr className="w-14 md:w-28 rounded-sm bg-[#2E96FF] h-4 " /></Link></span>
         </div>
         </div>
       </div>

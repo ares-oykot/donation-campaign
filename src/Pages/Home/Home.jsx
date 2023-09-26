@@ -20,22 +20,22 @@ const Home = () => {
   };
   return (
     <div>
-      <div className="bg w-full h-72 flex justify-center items-center rounded-sm">
+      <div className="bg w-full h-32 md:h-72 flex justify-center items-center rounded-sm">
         <div className="">
-          <h2 className="text-4xl font-semibold">
+          <h2 className="text-xl md:text-4xl font-semibold">
             I Grow By Helping People In Need
           </h2>
-          <div className="flex justify-center mt-3">
+          <div className="flex justify-center mt-3 text-sm md:text-base">
             <form onSubmit={handleSearch}>
               <input
-                className="border rounded-l-md py-2 pl-5 w-96"
+                className="rounded-l-sm py-1 pl-3 md:rounded-l-md md:py-2 md:pl-5 md:w-96 shadow-md"
                 type="text"
                 name="text"
                 id=""
                 placeholder="Search here...."
               />
               <input
-                className="py-2 rounded-r-md px-3 font-medium  text-white bg-[#ff676c] hover:bg-[#ff2c33]"
+                className="py-1 px-2 rounded-r-sm md:py-2 md:rounded-r-md md:px-3 font-medium  text-white bg-[#ff676c] hover:bg-[#ff2c33] shadow-md"
                 value="Search"
                 type="submit"
               />

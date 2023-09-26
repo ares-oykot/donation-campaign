@@ -14,8 +14,8 @@ const Category = ({category}) => {
             <div className="w-full">
                 <img src={picture} alt="" />
                 <div style={color} className="pt-3 pb-2 pl-3 rounded-b-md">
-                    <button style={btnBgColor} className="px-2 rounded">{category_name}</button>
-                    <h4 className="mt-1 font-semibold">{title}</h4>
+                    <span style={btnBgColor} className="text-[10px] md:text-base px-2 rounded-sm md:rounded">{category_name}</span>
+                    <h4 className="mt-1 text-sm md:text-base font-semibold">{title}</h4>
                 </div>
             </div>
         </div>

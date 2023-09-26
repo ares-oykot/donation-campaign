@@ -26,16 +26,16 @@ const Donation = () => {
     return (
         <div className="mb-10">
             {
-                displayCards.length > 0 ? <div className="grid lg:grid-cols-2 gap-5 mt-10">
+                displayCards.length > 0 ? <div className="grid lg:grid-cols-2 gap-3 md:gap-5 mt-6 md:mt-10">
                     {
                         displayCards.slice(0, display).map((card, idx) => <DetailsCard key={idx} card={card} ></DetailsCard>)
                     }
                 </div> : <div className="">
                     <div className="flex justify-center mt-[30vh]">
-                        <h1 className="text-5xl font-black text-lime-400">Donation information is not available.</h1>
+                        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-black text-lime-400">Donation information is not available.</h1>
                     </div>
-                    <div className="flex justify-center mt-10">
-                        <Link to="/"><button className="text-3xl bg-purple-400 px-3 py-2 text-white rounded-md hover:text-4xl hover:bg-purple-600 hover:text-rose-400 duration-500">Donate Us</button></Link>
+                    <div className="flex justify-center mt-4 md:mt-10">
+                        <Link to="/"><button className="md:text-3xl bg-purple-400 px-3 py-2 text-white rounded-md hover:text-4xl hover:bg-purple-600 hover:text-rose-400 duration-500">Donate Us</button></Link>
                     </div>
                 </div>
             }
