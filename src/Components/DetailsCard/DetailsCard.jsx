@@ -7,7 +7,7 @@ const DetailsCard = ({card}) => {
     const detailsBtnBgColor = {backgroundColor: color_for_text};
     return (
         <div>
-            <div style={color} className="flex rounded-r-md">
+            <div style={color} className="flex rounded-l-md rounded-r-md">
                 <div className="rounded-l-md"><img className="rounded-l-md h-full w-full" src={picture_cart} alt=""/></div>
                 <div className="w-full pl-6 py-6">
                     <button className="px-5 rounded" style={btnBgColor}>{category_name}</button>
