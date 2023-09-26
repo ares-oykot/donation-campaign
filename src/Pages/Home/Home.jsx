@@ -1,25 +1,26 @@
 import { useEffect, useState } from "react";
 import Categories from "../../Components/Categories/Categories";
-
+import "./Home.css";
 
 const Home = () => {
-    const [categories, setCategories] = useState([]);
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        fetch('fakeData.json')
-        .then(res => res.json())
-        .then(data => setCategories(data))
-
-    }, []);
-    const handleSearch = (e) => {
-        e.preventDefault();
-        const text = e.target.text.value.toLowerCase();
-        const filteredResults = categories.filter((item) => item.category_name.toLowerCase() === text);
-        setData(filteredResults);
-    }
+  const [categories, setCategories] = useState([]);
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("fakeData.json")
+      .then((res) => res.json())
+      .then((data) => setCategories(data));
+  }, []);
+  const handleSearch = (e) => {
+    e.preventDefault();
+    const text = e.target.text.value.toLowerCase();
+    const filteredResults = categories.filter(
+      (item) => item.category_name.toLowerCase() === text
+    );
+    setData(filteredResults);
+  };
   return (
     <div>
-      <div className="w-full h-72 flex justify-center items-center bg-lime-50">
+      <div className="bg w-full h-72 flex justify-center items-center rounded-sm">
         <div className="">
           <h2 className="text-4xl font-semibold">
             I Grow By Helping People In Need

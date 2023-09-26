@@ -26,7 +26,7 @@ const Donation = () => {
     return (
         <div className="mb-10">
             {
-                displayCards.length > 0 ? <div className="grid grid-cols-2 gap-5 mt-10">
+                displayCards.length > 0 ? <div className="grid lg:grid-cols-2 gap-5 mt-10">
                     {
                         displayCards.slice(0, display).map((card, idx) => <DetailsCard key={idx} card={card} ></DetailsCard>)
                     }
