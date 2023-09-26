@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const Category = ({category}) => {
     const {id, picture, title, category_name, color_for_text, color_for_card_bg, color_for_btn_bg} = category || {}
@@ -22,4 +23,7 @@ const Category = ({category}) => {
     );
 };
 
+Category.propTypes = {
+    category: PropTypes.object
+}
 export default Category;

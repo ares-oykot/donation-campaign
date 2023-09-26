@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const DetailsCard = ({card}) => {
-    const {id, picture_cart, title, category_name, color_for_text, color_for_card_bg, color_for_btn_bg, price} = card || {};
+    const {picture_cart, title, category_name, color_for_text, color_for_card_bg, color_for_btn_bg, price} = card || {};
     const color = {color: color_for_text, backgroundColor: color_for_card_bg};
     const btnBgColor = {backgroundColor: color_for_btn_bg};
     const detailsBtnBgColor = {backgroundColor: color_for_text};
@@ -20,4 +21,7 @@ const DetailsCard = ({card}) => {
     );
 };
 
+DetailsCard.propTypes = {
+    card: PropTypes.object
+}
 export default DetailsCard;

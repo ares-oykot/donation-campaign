@@ -1,4 +1,5 @@
 import Category from "./Category/Category";
+import PropTypes from 'prop-types';
 
 const Categories = ({categories, data}) => {
     const dataToMap = data.length ? data : categories;
@@ -13,4 +14,8 @@ const Categories = ({categories, data}) => {
     );
 };
 
+Categories.propTypes = {
+    categories: PropTypes.array,
+    data: PropTypes.array
+}
 export default Categories;
