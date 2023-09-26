@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../../assets/Logo.png";
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center shadow-sm">
+    <div className="flex justify-between items-center">
       <div className="">
         <img className="w-28 md:w-48" src={logo} alt="" />
       </div>

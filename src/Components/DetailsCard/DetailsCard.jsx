@@ -4,7 +4,7 @@ const DetailsCard = ({card}) => {
     const {id, picture_cart, title, category_name, color_for_text, color_for_card_bg, color_for_btn_bg, price} = card || {};
     const color = {color: color_for_text, backgroundColor: color_for_card_bg};
     const btnBgColor = {backgroundColor: color_for_btn_bg};
-    const detailsBtnBgColor = {backgroundColor: color_for_text}
+    const detailsBtnBgColor = {backgroundColor: color_for_text};
     return (
         <div>
             <div style={color} className="flex rounded-r-md">

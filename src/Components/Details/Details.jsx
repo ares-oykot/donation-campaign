@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { saveCardsId } from "../../Utility/LocalStorage";
+import swal from 'sweetalert';
 
 const Details = () => {
     const {id} = useParams();
@@ -11,7 +12,8 @@ const Details = () => {
 
     const handleDonate = () => {
         saveCardsId(idInt);
-        alert(`Thanks for Donate $ ${price}`)
+        // alert(`Thanks for Donate $ ${price}`)
+        swal("We are grateful to you!", "Thanks for being by our side", "success");
     }
 
     return (
