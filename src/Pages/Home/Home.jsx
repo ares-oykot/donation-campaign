@@ -6,7 +6,7 @@ const Home = () => {
   const [categories, setCategories] = useState([]);
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("fakeData.json")
+    fetch("/fakeData.json")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);
