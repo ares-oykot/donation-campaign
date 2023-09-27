@@ -13,4 +13,4 @@
 ## 🔗 My project live link
 You can also check my website by following the link below.
 
-https://capable-spy.surge.sh/
+https://aloof-owner.surge.sh/
