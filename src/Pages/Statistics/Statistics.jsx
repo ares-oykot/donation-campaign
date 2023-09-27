@@ -2,17 +2,25 @@ import { PieChart, pieArcLabelClasses } from "@mui/x-charts/PieChart";
 import { useEffect, useState } from "react";
 import { getStoredCardsId } from "../../Utility/LocalStorage";
 import { Link } from "react-router-dom";
+
 const Statistics = () => {
   const [storedDonation, setStoredDonation] = useState([]);
   useEffect(() => {
     setStoredDonation(getStoredCardsId());
   }, []);
+
+
+
   const total = storedDonation.length;
   const step1 = 12 / total;
   const donate = 100 / step1;
   const remaining = 100 - donate;
   const A = donate.toFixed(2);
   const B = remaining.toFixed(2);
+
+
+
+  
   const data = [
     { value: A, label: "A %" },
     { value: B, label: "B %" },
